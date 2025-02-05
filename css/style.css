@@ -1,0 +1,112 @@
+*{ padding: 0; }
+*{ border: 0; }
+
+/* Estilos para el header */
+body{
+    background-color: aqua;
+}
+.lista {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    align-items: flex-end;
+    font-size: large;
+}
+.imagenprincipal{
+    width: 30%;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+}
+
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+}
+.img-1{
+    height: 400px;
+    width: 400px;
+    padding: 25px;
+}
+
+
+/* Estilos para el main */
+main{
+    text-align: center;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;    
+}
+main img{
+    height: 480px;
+}
+.imagen{
+    height: 480px;
+}
+main ul li{
+    list-style: none;
+}
+main ol li{
+    list-style: none;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para el footer */
+footer{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* Estilos maximos jugadores page */
+.lista-goleadores{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* Estilos asistidores */
+.asistidores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px;
+}
+.a1{
+    height: 450px;
+    width: 350px;
+}
+.a2{
+    height: 450px;
+    width: 350px;
+}
+.a3{
+    height: 450px;
+    width: 350px;
+}
+.a4{
+    height: 450px;
+    width: 350px;
+}
+.a5{
+    height: 450px;
+    width: 350px;
+}
+.a6{
+    height: 450px;
+    width: 350px;
+}
+
+/* Estilos mejores arqueros */
+.arqueros{
+    display: flex;
+    flex-direction: column;
+}
