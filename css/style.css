@@ -1,9 +1,12 @@
 *{ padding: 0; }
 *{ border: 0; }
 
+
+
+
 /* Estilos para el header */
 body{
-    background-color: aqua;
+    background-color: white;
 }
 .lista {
     display: grid;
@@ -16,7 +19,7 @@ body{
 }
 
 header{
-    background-color: white;
+    background-color: violet;
     text-align: center;
 }
 
@@ -109,4 +112,26 @@ footer{
 .arqueros{
     display: flex;
     flex-direction: column;
+}
+
+/* Media querys */
+
+@media (width <= 500px) {
+    header {
+        background-color: blue
+    }
+    body {
+        color: white;
+        background-color: black;
+        
+    }
+}
+
+@media (width > 800px) {
+    header {
+        background-color: white
+    }
+    body {
+        background-color: tomato
+    }
 }
